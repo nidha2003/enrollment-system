@@ -102,7 +102,8 @@ Start the Tkinter GUI:
 ```
 python main.py
 ```
-##🎨 Application Screenshots (Add images later)
+
+## 🎨 Application Screenshots (Add images later)
 You can insert screenshots like this:
 ```
 ![App Screenshot](screenshots/app.png)
@@ -150,6 +151,7 @@ Upload to cloud database (AWS RDS, Railway, etc.)
 Fathima Nidha
 Beginner Python Developer | Aspiring Software Engineer
 GitHub: https://github.com/nidha2003
+
 
 
 
