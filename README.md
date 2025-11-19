@@ -146,9 +146,13 @@ Replace Tkinter with PyQt or a web UI (Flask/Django)
 Upload to cloud database (AWS RDS, Railway, etc.)
 
 ## 👩‍💻 Author
+
 Fathima Nidha
+
 Beginner Python Developer | Aspiring Software Engineer
-GitHub: https://github.com/nidha2003
+
+GitHub: [nidha2003](https://github.com/nidha2003)
+
 
 
 
