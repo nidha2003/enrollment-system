@@ -67,6 +67,8 @@ CREATE TABLE IF NOT EXISTS students (
     age INT NOT NULL,
     course VARCHAR(100) NOT NULL
 );
+```
+
 ⚙️ Installation & Setup Guide
 Follow these steps to run the project locally:
 
@@ -156,4 +158,5 @@ Upload to cloud database (AWS RDS, Railway, etc.)
 Fathima Nidha
 Beginner Python Developer | Aspiring Software Engineer
 GitHub: https://github.com/nidha2003
+
 
