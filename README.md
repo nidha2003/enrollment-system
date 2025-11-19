@@ -103,18 +103,16 @@ Start the Tkinter GUI:
 python main.py
 ```
 
-## 🎨 Application Screenshots (Add images later)
-You can insert screenshots like this:
-```
-![App Screenshot](screenshots/app.png)
-Recommended screenshots:
+## 🎨 Application Screenshots
 
-Main window
+### 📌 Main Window
+![Screenshot 1](screenshots/screenshot1.png)
 
-Adding a student
+### 📌 Adding a Student
+![Screenshot 2](screenshots/screenshot2.png)
 
-Table populated with data
-```
+### 📌 Student Records Table
+![Screenshot 3](screenshots/screenshot3.png)
 
 ## 🚀 Features in Detail
 ✔ Add Students
@@ -151,6 +149,7 @@ Upload to cloud database (AWS RDS, Railway, etc.)
 Fathima Nidha
 Beginner Python Developer | Aspiring Software Engineer
 GitHub: https://github.com/nidha2003
+
 
 
 
