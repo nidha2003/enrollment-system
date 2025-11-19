@@ -41,17 +41,13 @@ This project demonstrates practical skills in:
 ---
 
 ## 📁 **Project Structure**
-
+```
 enrollment-system/
 │── main.py # Main application (Tkinter GUI + MySQL CRUD logic)
 │── database.sql # Database schema (table creation script)
 │── requirements.txt # Project dependencies
 └── README.md # Project documentation
-
-pgsql
-Copy code
-
----
+```
 
 ## 🗄️ **Database Schema**
 
@@ -69,51 +65,46 @@ CREATE TABLE IF NOT EXISTS students (
 );
 ```
 
-⚙️ Installation & Setup Guide
+## ⚙️ Installation & Setup Guide
 Follow these steps to run the project locally:
 
-1. Clone the Repository
-bash
-Copy code
+# 1. Clone the Repository
+```
 git clone https://github.com/<your-username>/enrollment-system.git
 cd enrollment-system
-2. Install Dependencies
-nginx
-Copy code
+```
+# 2. Install Dependencies
+```
 pip install -r requirements.txt
-3. Set Up MySQL Database
-Option A — Run SQL file:
+```
+# 3. Set Up MySQL Database
 
+*Option A* — Run SQL file:
 Open MySQL Workbench
-
 Open database.sql
-
 Click Run (⚡)
 
-Option B — Copy and paste the schema manually.
+*Option B* — Copy and paste the schema manually.
 
-4. Configure Database Connection
+# 4. Configure Database Connection
 Open main.py and update your database password:
 
-python
-Copy code
+```
 mysql.connector.connect(
     host="localhost",
     user="root",
     password="YOUR_PASSWORD",
     database="enrollment"
 )
-5. Run the Application
+```
+# 5. Run the Application
 Start the Tkinter GUI:
-
-css
-Copy code
+```
 python main.py
+```
 🎨 Application Screenshots (Add images later)
 You can insert screenshots like this:
-
-scss
-Copy code
+```
 ![App Screenshot](screenshots/app.png)
 Recommended screenshots:
 
@@ -122,8 +113,9 @@ Main window
 Adding a student
 
 Table populated with data
+```
 
-🚀 Features in Detail
+## 🚀 Features in Detail
 ✔ Add Students
 Insert new student records with name, age, and course.
 
@@ -139,7 +131,7 @@ Built in Tkinter, easy to navigate and beginner-friendly.
 ✔ Real Database Backend
 Persists data using MySQL connector.
 
-📌 Future Improvements
+## 📌 Future Improvements
 This project can be extended using:
 
 Search student by name / ID
@@ -154,9 +146,10 @@ Replace Tkinter with PyQt or a web UI (Flask/Django)
 
 Upload to cloud database (AWS RDS, Railway, etc.)
 
-👩‍💻 Author
+##👩‍💻 Author
 Fathima Nidha
 Beginner Python Developer | Aspiring Software Engineer
 GitHub: https://github.com/nidha2003
+
 
 
