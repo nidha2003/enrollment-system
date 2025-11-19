@@ -43,10 +43,10 @@ This project demonstrates practical skills in:
 ## 📁 **Project Structure**
 ```
 enrollment-system/
-│── main.py # Main application (Tkinter GUI + MySQL CRUD logic)
-│── database.sql # Database schema (table creation script)
-│── requirements.txt # Project dependencies
-└── README.md # Project documentation
+│── main.py            # Main application (Tkinter GUI + MySQL CRUD logic)
+│── database.sql       # Database schema (table creation script)
+│── requirements.txt   # Project dependencies
+└── README.md          # Project documentation
 ```
 
 ## 🗄️ **Database Schema**
@@ -152,6 +152,7 @@ Fathima Nidha
 Beginner Python Developer | Aspiring Software Engineer
 
 GitHub: [nidha2003](https://github.com/nidha2003)
+
 
 
 
