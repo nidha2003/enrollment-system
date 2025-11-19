@@ -68,16 +68,16 @@ CREATE TABLE IF NOT EXISTS students (
 ## ⚙️ Installation & Setup Guide
 Follow these steps to run the project locally:
 
-# 1. Clone the Repository
+ 1. Clone the Repository
 ```
 git clone https://github.com/<your-username>/enrollment-system.git
 cd enrollment-system
 ```
-# 2. Install Dependencies
+ 2. Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-# 3. Set Up MySQL Database
+ 3. Set Up MySQL Database
 
 *Option A* — Run SQL file:
 Open MySQL Workbench
@@ -86,7 +86,7 @@ Click Run (⚡)
 
 *Option B* — Copy and paste the schema manually.
 
-# 4. Configure Database Connection
+ 4. Configure Database Connection
 Open main.py and update your database password:
 
 ```
@@ -97,12 +97,12 @@ mysql.connector.connect(
     database="enrollment"
 )
 ```
-# 5. Run the Application
+ 5. Run the Application
 Start the Tkinter GUI:
 ```
 python main.py
 ```
-🎨 Application Screenshots (Add images later)
+##🎨 Application Screenshots (Add images later)
 You can insert screenshots like this:
 ```
 ![App Screenshot](screenshots/app.png)
@@ -150,6 +150,7 @@ Upload to cloud database (AWS RDS, Railway, etc.)
 Fathima Nidha
 Beginner Python Developer | Aspiring Software Engineer
 GitHub: https://github.com/nidha2003
+
 
 
 
